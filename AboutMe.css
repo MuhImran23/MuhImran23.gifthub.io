@@ -1,0 +1,35 @@
+*,
+html{
+margin: 0;
+padding: 0;
+}
+body{
+    background-size: cover; /* Makes the image cover the whole screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-image: url('dark.jpg');
+    background-color: #333;
+}
+.main-title{
+    text-align: center;
+}
+.center {
+  margin-left: 30%;
+  margin-right: 20%;
+}
+.table-container {
+    text-align: center;
+    height: 100vh;
+    
+  }
+.table {
+    display: inline-table; /* Display as inline element */
+    
+    border-collapse: collapse;
+
+  }
+.table, th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
